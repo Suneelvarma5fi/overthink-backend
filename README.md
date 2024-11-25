@@ -43,6 +43,16 @@ API_KEY = "your_api_key_here"
 python manage.py runserver
 ```
 
+### 5. Sampel API Call
 
+
+```bash
+curl -X POST http://localhost:8000/create_root \
+-H "Content-Type: application/json" \
+-d '{
+  "stateOutcome": "I want to start a new business.",
+  "outComeID": 1
+}'
+```
 
 
