@@ -4,7 +4,7 @@ from groq import Groq  # type: ignore
 # Initialize Groq Client with API key from environment variables
 client = Groq(
     #api_key=os.environ.get("GROQ_API_KEY"),
-    api_key="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"
+    api_key="<API_KEY>"
 )
 
 # Global character setting (modifiable)
